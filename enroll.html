@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output.css" />
-    <title>-course</title>
+    <title>Enroll</title>
   </head>
   <body>
     <!-- upper nav  -->
@@ -74,8 +74,8 @@
                 >Home</a
               >
               <a
-                href="#home"
-                class="active text-white items-center hover:bg-green-400 px-2 py-2 rounded-md font-bold text-xl"
+                href="./course.html"
+                class="text-white items-center hover:bg-green-400 px-2 py-2 rounded-md font-bold text-xl"
                 >Courses</a
               >
               <a
@@ -113,8 +113,8 @@
                 >Home</a
               >
               <a
-                href="#home"
-                class="active w-full flex items-center justify-center py-2 hover:bg-green-400"
+                href="./course.html"
+                class="w-full flex items-center justify-center py-2 hover:bg-green-400"
                 >Courses</a
               >
               <a
@@ -133,7 +133,86 @@
       </div>
     </div>
     <!-- end of nav -->
-  
+    <div class="py-4 mt-20 px-6 lg:px-8 mb-2 md:mt-28 bg-white">
+      <h3 class="mb-2 text-xl font-medium text-black">Enroll Now !!!</h3>
+      <h3>required*</h3>
+      <form class="space-y-2" action="#">
+        <div>
+          <label for="name" class="block mb-2 text-sm font-medium text-black"
+            >Your Full Name*</label
+          >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="eg. Ram Parsad"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-black"
+            >Your email*</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="abc@gmail.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="phone" class="block mb-2 text-sm font-medium text-black">
+            Phone no.*</label
+          >
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="987654321"
+            required
+          />
+        </div>
+        <div>
+          <label for="course" class="block mb-2 text-sm font-medium text-black"
+            >Course
+          </label>
+          <select
+            name="course"
+            id="course"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          >
+            <option value="python">Python</option>
+            <option value="mern">MERN Stack</option>
+            <option value="digitalMarketting">Digital Marketting</option>
+          </select>
+        </div>
+        <div>
+          <label for="time" class="block mb-2 text-sm font-medium text-black"
+            >Prefered shift
+          </label>
+          <select
+            name="time"
+            id="time"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          >
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value=" Evening">Evening</option>
+          </select>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full button focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+        >
+          Enroll Now !
+        </button>
+      </form>
+    </div>
 
     <!-- fotter -->
     <footer class="text-white bg-gray-400 body-font my-10">
