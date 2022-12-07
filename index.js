@@ -3821,30 +3821,9 @@ const swiper = new Swiper(".swiper", {
 function firstShow() {
   document.getElementById("firstExtra").style.display = "inline";
   document.getElementById("firstShow").style.display = "none";
-  document.getElementById("firstHidden").style.display = "inline";
+  document.getElementById("firstBtn").style.display = "none";
 }
 function firstHide() {
   document.getElementById("firstExtra").style.display = "none";
-  document.getElementById("firstHidden").style.display = "none";
   document.getElementById("firstShow").style.display = "inline";
-}
-function secondShow() {
-  document.getElementById("secondExtra").style.display = "inline";
-  document.getElementById("secondShow").style.display = "none";
-  document.getElementById("secondHidden").style.display = "inline";
-}
-function secondHide() {
-  document.getElementById("secondExtra").style.display = "none";
-  document.getElementById("secondHidden").style.display = "none";
-  document.getElementById("secondShow").style.display = "inline";
-}
-function thirdShow() {
-  document.getElementById("thirdExtra").style.display = "inline";
-  document.getElementById("thirdShow").style.display = "none";
-  document.getElementById("thirdHidden").style.display = "inline";
-}
-function thirdHide() {
-  document.getElementById("thirdExtra").style.display = "none";
-  document.getElementById("thirdHidden").style.display = "none";
-  document.getElementById("thirdShow").style.display = "inline";
 }
